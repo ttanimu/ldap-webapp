@@ -1,0 +1,5 @@
+SSLRequireSSL
+AuthType Basic
+AuthName "<organization name>-<organization name>-user"
+AuthLDAPURL ldap://<ldap server host name>/ou=<section name>,o=<organization name>,c=com?cn
+require valid-user
